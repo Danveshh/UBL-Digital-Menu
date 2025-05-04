@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Good Times Menu | Kingfisher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #222;
+    }
+    header {
+      background-color: #e30613;
+      color: white;
+      padding: 20px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+      margin-bottom: 0;
+    }
+    header .header-text {
+      flex-grow: 1;
+      text-align: center;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0;
+    }
+    .branding-image {
+      width: 100%;
+      display: block;
+      border-bottom: 3px solid #e30613;
+    }
+    .menu-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+    .menu-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 180px;
+      transition: transform 0.2s;
+    }
+    .menu-card:hover {
+      transform: scale(1.05);
+    }
+    .menu-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .offer-text {
+      padding-top: 10px;
+      font-weight: bold;
+      color: #e30613;
+    }
+    .offer-subtext {
+      font-size: 12px;
+      color: #555;
+    }
+    footer {
+      background-color: #f5f5f5;
+      padding: 10px;
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Kingfisher_beer_logo.svg" alt="Kingfisher Logo" />
+    <div class="header-text">
+      <h1>Welcome to the Good Times!!</h1>
+    </div>
+    <div style="font-size: 26px; padding-right: 10px; cursor: pointer;">☰</div>
+  </header>
+
+  <img class="branding-image" src="https://danveshh.github.io/UBL-Digital-Menu/assets/branding-banner.png" alt="Branding Banner" />
+
+  <h2 style="text-align: center; font-weight: normal; margin-top: 20px;">Explore Our Digital Menu</h2>
+
+  <div class="menu-section">
+    <a href="#food" class="menu-card">
+      <div>FOOD MENU</div>
+    </a>
+    <a href="#alcohol" class="menu-card">
+      <div>ALCOHOL</div>
+    </a>
+    <a href="#beer" class="menu-card">
+      <div>BEER & BEVERAGES</div>
+    </a>
+    <a href="#offers" class="menu-card">
+      <div>OFFER ZONE</div>
+    </a>
+  </div>
+
+  <footer>
+    Powered by Kingfisher | Partnered with [Outlet Name]
+  </footer>
+</body>
+</html>
